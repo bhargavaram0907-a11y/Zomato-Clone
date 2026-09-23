@@ -60,10 +60,14 @@ main {
     overflow: hidden;
     text-align: center;
     color: #ffffff;
-    background-image: linear-gradient(
-        rgba(90, 15, 20, 0.52),
-        rgba(90, 15, 20, 0.52)
-    ), url("zomato.png");
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("zomato.png");
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
